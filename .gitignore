@@ -1,3 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Fuzz run outputs (keep the directory, ignore run artifacts)
+reports/night-*/
+reports/smoke/
+reports/smoke-*/
+reports/run-*/
+!corpus/README.md
+
 .env
 .env.*
 !.env.example
@@ -13,6 +27,4 @@ credentials*.json
 .npmrc
 .pypirc
 node_modules/
-__pycache__/
-.venv/
 venv/

@@ -1,0 +1,5 @@
+# Pinned reference engines for the differential fuzzer.
+# tomlone itself has zero runtime dependencies.
+rtoml==0.14.0
+pytomlpp==1.1.0
+pytest==9.2.0
